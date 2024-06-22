@@ -428,7 +428,7 @@ export function Default(props: Props) {
                   }
                 >
                   <span>
-                    {isSelfHosted() ? t('white_label_button') : t('unlock_pro')}
+                    {isSelfHosted() ? t('unlock_pro') : t('white_label_button')}
                   </span>
                 </button>
               )}
